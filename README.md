@@ -27,14 +27,14 @@ Weather Detector is a small Django app that lets a user search for a city and vi
 ## Requirements
 
 - Python 3
-- Django
+- Dependencies listed in `requirements.txt`
 
 ## Setup
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install django
+pip install -r requirements.txt
 python manage.py migrate
 ```
 
